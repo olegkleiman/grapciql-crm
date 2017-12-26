@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Header component 1`] = `
+<div>
+  <div
+    className="header TableObject"
+  >
+    <div
+      className="TableObject-item"
+    >
+      <h3>
+        TLV GraphQL API
+      </h3>
+    </div>
+    <div
+      className="TableObject-item text-right"
+    >
+      <span>
+        Start exploring GraphQL API queries using your Digitel account now
+      </span>
+      <a
+        className="btn btn-sm btn-primary ml-2"
+        href="/login"
+        target="_blank"
+      >
+        Log In
+      </a>
+    </div>
+  </div>
+  <div
+    className="Box-row Box-row-yellow"
+  >
+    <strong>
+      Heads up!
+    </strong>
+      TLV GraphQL Explorer makes use of
+    <strong>
+      real, live, production data
+    </strong>
+  </div>
+</div>
+`;
