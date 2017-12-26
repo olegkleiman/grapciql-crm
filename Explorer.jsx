@@ -85,16 +85,7 @@ class Explorer extends React.Component {
                     label="Prettify"
                     title="Prettify Query (Shift-Ctrl-P)"
                   />
-                  <button className='toolbar-button' onClick={this.logIn}>Log In</button>
               </GraphiQL.Toolbar>
-              <GraphiQL.QueryEditor>
-              </GraphiQL.QueryEditor>
-              <GraphiQL.VariableEditor>
-              </GraphiQL.VariableEditor>
-              <GraphiQL.ResultViewer>
-              </GraphiQL.ResultViewer>
-              <GraphiQL.Footer>
-              </GraphiQL.Footer>
             </GraphiQL>
       </div>);
   }
